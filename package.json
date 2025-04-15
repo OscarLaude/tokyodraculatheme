@@ -1,0 +1,21 @@
+{
+  "name": "tokyodracula",
+  "displayName": "TokyoDracula",
+  "description": "Mixed Tokyo Night Storm and Dracula",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TokyoDracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TokyoDracula-color-theme.json"
+      }
+    ]
+  }
+}
