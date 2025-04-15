@@ -20,6 +20,7 @@ Origin
 🧩 Support (built-ins)	support, support.function, support.class	#8BE9FD
 
 ⚡ Mots-clés	keyword, storage.type, storage.modifier	#FF79C6
+⚡ Mots-clés	keyword, storage.type, storage.modifier	#e666b4
 🔣 Opérateurs	keyword.operator, punctuation	#FF79C6
 
 💬 Chaînes de caractères	string, string.quoted	#F1FA8C

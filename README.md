@@ -15,18 +15,18 @@ It's a look I love, and I hope you'll enjoy it as much as I do!
 | Element                  | Selectors                                                   | Color       | Emoji     |
 |--------------------------|--------------------------------------------------------------|-------------|-----------|
 | Functions                | `entity.name.function`                                       | `#66f7a1`   | 🔧        |
-| Methods                  | `meta.method-call`, `entity.name.method`                     | `#50FA7B`   | 🧱        |
+| Methods                  | `meta.method-call`, `entity.name.method`                     | `#66f7a1`   | 🧱        |
 | Variables                | `variable`, `variable.other`                                 | `#F8F8F2`   | 📦        |
-| Parameters               | `variable.parameter`                                         | `#FFB86C`   | 🎯        |
-| Constants                | `constant`, `variable.other.constant`                        | `#BD93F9`   | 🧠        |
-| Numbers                  | `constant.numeric`                                           | `#BD93F9`   | 📏        |
-| Types / Classes          | `entity.name.type`, `entity.name.class`                      | `#8BE9FD`   | 📚        |
-| Keywords                 | `keyword`, `storage.type`, `storage.modifier`                | `#FF79C6`   | ⚡        |
-| Strings                  | `string`, `string.quoted`                                    | `#F1FA8C`   | 💬        |
+| Parameters               | `variable.parameter`                                         | `#f4a96b`   | 🎯        |
+| Constants                | `constant`, `variable.other.constant`                        | `#a88ffb`   | 🧠        |
+| Numbers                  | `constant.numeric`                                           | `#a88ffb`   | 📏        |
+| Types / Classes          | `entity.name.type`, `entity.name.class`                      | `#7ecdf2`   | 📚        |
+| Keywords                 | `keyword`, `storage.type`, `storage.modifier`                | `#e666b4`   | ⚡        |
+| Strings                  | `string`, `string.quoted`                                    | `#e4d97a`   | 💬        |
 | Comments                 | `comment`, `punctuation.definition.comment`                  | `#6272A4`   | 💡        |
-| Operators                | `keyword.operator`, `punctuation`                            | `#FF79C6`   | 🔣        |
-| Support (built-ins)      | `support`, `support.function`, `support.class`               | `#8BE9FD`   | 🧩        |
-| Decorators / Annotations | `meta.decorator`, `storage.type.annotation`                  | `#50FA7B`   | 🎀        |
+| Operators                | `keyword.operator`, `punctuation`                            | `#e666b4`   | 🔣        |
+| Support (built-ins)      | `support`, `support.function`, `support.class`               | `#7ecdf2`   | 🧩        |
+| Decorators / Annotations | `meta.decorator`, `storage.type.annotation`                  | `#66f7a1`   | 🎀        |
 
 ---
 
@@ -81,7 +81,7 @@ Visual Studio Code allows you to manually modify theme colors via user settings.
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#e666b4"
       }
     }
   ]
@@ -113,18 +113,18 @@ C'est un rendu que j'adore, et j'espère qu'il vous plaira autant qu'à moi !
 | Élément                  | Sélecteurs                                                   | Couleur     | Emoji     |
 |--------------------------|--------------------------------------------------------------|-------------|-----------|
 | Fonctions                | `entity.name.function`                                       | `#66f7a1`   | 🔧        |
-| Méthodes                 | `meta.method-call`, `entity.name.method`                     | `#50FA7B`   | 🧱        |
+| Méthodes                 | `meta.method-call`, `entity.name.method`                     | `#66f7a1`   | 🧱        |
 | Variables                | `variable`, `variable.other`                                 | `#F8F8F2`   | 📦        |
-| Paramètres               | `variable.parameter`                                         | `#FFB86C`   | 🎯        |
-| Constantes               | `constant`, `variable.other.constant`                        | `#BD93F9`   | 🧠        |
-| Nombres                  | `constant.numeric`                                           | `#BD93F9`   | 📏        |
-| Types / Classes          | `entity.name.type`, `entity.name.class`                      | `#8BE9FD`   | 📚        |
-| Mots-clés                | `keyword`, `storage.type`, `storage.modifier`                | `#FF79C6`   | ⚡        |
-| Chaînes de caractères    | `string`, `string.quoted`                                    | `#F1FA8C`   | 💬        |
+| Paramètres               | `variable.parameter`                                         | `#f4a96b`   | 🎯        |
+| Constantes               | `constant`, `variable.other.constant`                        | `#a88ffb`   | 🧠        |
+| Nombres                  | `constant.numeric`                                           | `#a88ffb`   | 📏        |
+| Types / Classes          | `entity.name.type`, `entity.name.class`                      | `#7ecdf2`   | 📚        |
+| Mots-clés                | `keyword`, `storage.type`, `storage.modifier`                | `#e666b4`   | ⚡        |
+| Chaînes de caractères    | `string`, `string.quoted`                                    | `#e4d97a`   | 💬        |
 | Commentaires             | `comment`, `punctuation.definition.comment`                  | `#6272A4`   | 💡        |
-| Opérateurs               | `keyword.operator`, `punctuation`                            | `#FF79C6`   | 🔣        |
-| Support (built-ins)      | `support`, `support.function`, `support.class`               | `#8BE9FD`   | 🧩        |
-| Décorateurs / Annotations| `meta.decorator`, `storage.type.annotation`                  | `#50FA7B`   | 🎀        |
+| Opérateurs               | `keyword.operator`, `punctuation`                            | `#e666b4`   | 🔣        |
+| Support (built-ins)      | `support`, `support.function`, `support.class`               | `#7ecdf2`   | 🧩        |
+| Décorateurs / Annotations| `meta.decorator`, `storage.type.annotation`                  | `#66f7a1`   | 🎀        |
 
 ---
 
@@ -179,7 +179,7 @@ Visual Studio Code permet de modifier manuellement les couleurs du thème via le
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#e666b4"
       }
     }
   ]
