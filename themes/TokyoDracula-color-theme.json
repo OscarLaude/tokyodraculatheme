@@ -2,8 +2,7 @@
 	"name": "Tokyo Dracula",
 	"author": "Enkia / Zeno Rocha",
 	"maintainers": [
-	  "Enkia <enki77@gmail.com>",
-	  "Derek P Sifford <dereksifford@gmail.com>"
+	  "Oscar <oscarlaudepro@gmail.com>"
 	],
 	"type": "dark",
 	"semanticTokenColors": {
@@ -11,25 +10,34 @@
 		"foreground": "#e0af68"
 	  },
 	  "parameter": {
-		"foreground": "#cfc9c2"
+		"foreground": "#e0af68"
+	  },
+	  "parameter.reference": {
+		"foreground": "#e0af68"
 	  },
 	  "property.declaration": {
-		"foreground": "#73daca"
+		"foreground": "#F8F8F2"
 	  },
 	  "property.defaultLibrary": {
-		"foreground": "#2ac3de"
+		"foreground": "#F8F8F2"
 	  },
 	  "*.defaultLibrary": {
-		"foreground": "#2ac3de"
+		"foreground": "#66f7a1"
 	  },
 	  "variable.defaultLibrary": {
-		"foreground": "#2ac3de"
+		"foreground": "#a88ffb"
 	  },
 	  "variable.declaration": {
-		"foreground": "#bb9af7"
+		"foreground": "#F8F8F2"
 	  },
 	  "variable": {
-		"foreground": "#c0caf5"
+		"foreground": "#F8F8F2"
+	  },
+	  "variable.readonly": {
+		"foreground": "#a88ffb"
+	  },
+	  "variable.mutable": {
+		"foreground": "#F8F8F2"
 	  }
 	},
 	"semanticClass": "tokyo-night-storm",
@@ -1164,10 +1172,7 @@
 		"scope": [
 		  "variable",
 		  "constant.other.key.perl",
-		  "support.variable.property",
-		  "variable.other.constant.js",
-		  "variable.other.constant.ts",
-		  "variable.other.constant.tsx"
+		  "support.variable.property"
 		],
 		"settings": {
 		  "foreground": "#F8F8F2"
@@ -1319,17 +1324,6 @@
 		"settings": {
 		  "foreground": "#e4d97a",
 		  "fontStyle": "bold"
-		}
-	  },
-	  {
-		"name": "Object Key (force white)",
-		"scope": [
-		  "meta.object-literal.key",
-		  "meta.object-literal.key.js",
-		  "meta.block meta.object-literal.key"
-		],
-		"settings": {
-		  "foreground": "#F8F8F2"
 		}
 	  }
 	]
