@@ -38,6 +38,16 @@
 	  },
 	  "variable.mutable": {
 		"foreground": "#F8F8F2"
+	  },
+	  "variable.unused": {
+		"foreground": "#F8F8F280"
+	  },
+	  "parameter.unused": {
+		"foreground": "#e0af6880"
+	  },
+	  "*.unused": {
+		"foreground": "#F8F8F280",
+		"fontStyle": "italic"
 	  }
 	},
 	"semanticClass": "tokyo-night-storm",
@@ -1324,6 +1334,15 @@
 		"settings": {
 		  "foreground": "#e4d97a",
 		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"scope": [
+		  "variable.unused"
+		],
+		"settings": {
+		  "foreground": "#F8F8F280",
+		  "fontStyle": "italic"
 		}
 	  }
 	]
