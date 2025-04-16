@@ -41,23 +41,18 @@ It's a look I love, and I hope you'll enjoy it as much as I do!
 git clone https://github.com/OscarLaude/tokyodraculatheme.git
 ```
 
-### 2. Install vsce (Visual Studio Code Extension Manager)
+### 2. Modifying Visual Studio Code parameters
 
-If you haven't already, install `vsce` globally:
-
-```bash
-npm install -g vsce
-```
-
-### 3. Package the extension
-
-Navigate to the project root (where the `package.json` file is located) and run:
+1. Open **Visual Studio Code**.
+2. Open the **Command palette** with `Ctrl+Shift+P`.
+3. Type and select: `Preferences: Open User Settings (JSON)`.
+4. Add the following line to the bottom of the file :
 
 ```bash
-vsce package
+"typescript.semanticHighlighting.enabled": true
 ```
 
-### 4. Install the extension in VSCode
+### 3. Install the extension in VSCode
 
 1. Open **Visual Studio Code**
 2. Open the **Command Palette** with `Ctrl+Shift+P`
@@ -139,28 +134,23 @@ C'est un rendu que j'adore, et j'espère qu'il vous plaira autant qu'à moi !
 git clone https://github.com/OscarLaude/tokyodraculatheme.git
 ```
 
-### 2. Installer vsce (Visual Studio Code Extension Manager)
+### 2. Modifier les paramètres de Visual Studio Code
 
-Si ce n'est pas encore fait, installez `vsce` globalement :
-
-```bash
-npm install -g vsce
-```
-
-### 3. Packager l'extension
-
-Placez-vous à la racine du projet (là où se trouve le fichier `package.json`) puis exécutez :
+1. Ouvrez **Visual Studio Code**
+2. Ouvrez la **Palette de commandes** avec `Ctrl+Shift+P`
+3. Tapez et sélectionnez : `Preferences: Open User Settings (JSON)`
+4. Ajouter la ligne suivante en bas du fichier :
 
 ```bash
-vsce package
+"typescript.semanticHighlighting.enabled": true
 ```
 
-### 4. Installer l'extension dans VSCode
+### 3. Installer l'extension dans VSCode
 
 1. Ouvrez **Visual Studio Code**
 2. Ouvrez la **Palette de commandes** avec `Ctrl+Shift+P`
 3. Tapez et sélectionnez : `Extensions: Install from VSIX...`
-4. Choisissez le fichier `.vsix` que vous avez généré (par exemple : `tokyodracula-1.0.0.vsix`)
+4. Choisissez le fichier `.vsix` que vous avez généré (par exemple : `tokyodracula-0.0.3.vsix`)
 
 ✅ Une fois installé, activez le thème via les **Préférences de thème** dans VSCode.
 
