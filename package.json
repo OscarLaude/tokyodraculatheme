@@ -2,9 +2,9 @@
   "name": "tokyodracula",
   "displayName": "TokyoDracula",
   "description": "Mixed Tokyo Night Storm and Dracula",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
